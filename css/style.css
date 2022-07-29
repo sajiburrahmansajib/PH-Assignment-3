@@ -1,0 +1,58 @@
+.btn-viewall {
+    visibility: hidden !important;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .institute {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #join-part {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #register-btn {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #feedback {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .institute {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-viewall {
+        visibility: visible !important;
+    }
+
+    .btn-morecourses {
+        visibility: hidden !important;
+    }
+
+    #join-part {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #register-btn {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    #feedback {
+        display: flex;
+        flex-direction: column;
+    }
+
+}

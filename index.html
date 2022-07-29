@@ -172,82 +172,87 @@
         <!-- course list start -->
         <section class="container pt-5" id="course-list">
             <div class="row pt-5 ">
-                <div class="col pt-5 d-flex  ">
+                <div class="col col-lg-6 col-md-12  pt-5 d-flex  ">
                     <div class="pe-4 ">
                         <img src="images/course/course-1.png" alt="">
                     </div>
                     <div class="border border-1 border-start-0 pt-3 pn-5 rounded  ">
                         <h2>Fundamental Of UI/UX Design</h2>
-                        <p>Some quick example text to build on the card title
-                            and make up the bulk of the card.</p>
+                        <p>The five main principles of UX design. There are many important principles within UX design
+                            but to simplify things a bit.</p>
                         <h3 class="text-primary">Price : $20</h3>
                     </div>
                 </div>
-                <div class="col pt-5 d-flex">
+                <div class="col col-lg-6 col-md-12 pt-5 d-flex">
                     <div class="pe-4">
                         <img src="images/course/course-2.png" alt="">
                     </div>
                     <div class="border border-1 border-start-0 pt-3 pn-5 rounded">
-                        <h1>Fundamental Of UI/UX Design</h1>
-                        <p>Some quick example text to build on the card title
-                            and make up the bulk of the card.</p>
+                        <h1>Javascript Basic to advanced</h1>
+                        <p>Learn JavaScript with this complete course on the market. From beginner to advanced.</p>
                         <h3 class="text-primary">price:$20</h3>
                     </div>
                 </div>
-                <div class="col pt-5 d-flex ">
+                <div class="col col-lg-6 col-md-12 pt-5 d-flex ">
                     <div class="pe-4">
                         <img src="images/course/course-3.png" alt="">
                     </div>
                     <div class="border border-1 border-start-0 pt-3 pn-5 rounded">
-                        <h1>Fundamental Of UI/UX Design</h1>
-                        <p>Some quick example text to build on the card title
-                            and make up the bulk of the card.</p>
+                        <h1>Fullstack Web Development</h1>
+                        <p>A full stack web developer is a person who can develop both client and server software.</p>
                         <h3 class="text-primary">price:$20</h3>
                     </div>
                 </div>
-                <div class="col pt-5 d-flex ">
+                <div class="col col-lg-6 col-md-12 pt-5 d-flex " id="Digital">
                     <div class="pe-4">
                         <img src="images/course/course-4.png" alt="">
                     </div>
                     <div class="border border-1 border-start-0 pt-3 pn-5 rounded">
-                        <h1>Fundamental Of UI/UX Design</h1>
-                        <p>Some quick example text to build on the card title
-                            and make up the bulk of the card.</p>
+                        <h1>Digital Marketing</h1>
+                        <p>Digital marketing, also called online marketing, is the promotion of brands to connect with
+                            potential customers </p>
                         <h3 class="text-primary">price:$20</h3>
                     </div>
                 </div>
-                <div class="col pt-5 d-flex ">
+                <div class="col col-lg-6 col-md-12 pt-5 d-flex " id="Photography">
                     <div class="pe-4">
                         <img src="images/course/course-5.png" alt="">
                     </div>
                     <div class="border border-1 border-start-0 pt-3 pn-5 rounded">
-                        <h1>Fundamental Of UI/UX Design</h1>
-                        <p>Some quick example text to build on the card title
-                            and make up the bulk of the card.</p>
+                        <h1>Photography Basic Rules</h1>
+                        <p>Fill The Frame / Cropping. ...
+                            Don't Cut Off Limbs. ...
+                            Understand The Rule Of Thirds. ...
+                            Use Frames..</p>
                         <h3 class="text-primary">price:$20</h3>
                     </div>
                 </div>
-                <div class="col pt-5 d-flex ">
+                <div class="col col-lg-6 col-md-12 pt-5 d-flex " id="Motion">
                     <div class="pe-4">
                         <img src="images/course/course-6.png" alt="">
                     </div>
                     <div class="border border-1 border-start-0 pt-3 pn-5 rounded">
-                        <h1>Fundamental Of UI/UX Design</h1>
-                        <p>Some quick example text to build on the card title
-                            and make up the bulk of the card.</p>
+                        <h1>Motion Graphics</h1>
+                        <p>otion graphics (sometimes mograph) are pieces of animation or digital footage which create
+                            the illusion of motion or rotation.</p>
                         <h3 class="text-primary">price:$20</h3>
                     </div>
                 </div>
             </div>
             <!-- course list end -->
             <div class="mb-5 d-flex justify-content-center">
-                <div class="mt-5">
+                <div class="mt-5 btn-morecourses">
                     <button type="button" class="btn btn-primary fs-2 ps-5 pe-5 mt-5">See More Courses </button>
+                </div>
+            </div>
+            <div class="mb-5 d-flex justify-content-center ">
+                <div class="btn-viewall">
+                    <button type="button" class="btn btn-primary fs-2 ps-5 pe-5 mt-5">View All </button>
                 </div>
             </div>
         </section>
         <section class="container mb-5 ">
-            <div class="d-flex bg-light ">
+            <div class="d-flex bg-light institute">
                 <div>
                     <img src="images/working.png" alt="">
                 </div>
@@ -285,16 +290,18 @@
             </div>
         </section>
         <section class="container">
-            <div class=" bg-primary d-flex justify-content-between align-items-center p-5">
+            <div class=" bg-primary d-flex justify-content-between align-items-center p-5" id="join-part">
                 <div class="p-5 text-white">
                     <h1 class="fs-1 pb-3">Ready to join?</h1>
                     <p>It is a long established fact that a reader will be distracted by the <br>
                         readable content of a page when looking at its layout</p>
                 </div>
                 <div class="pe-5">
-                    <button type="button" class="btn btn-primary bg-white text-primary fs-4 ps-5 pe-5 pt-3
+                    <div id="register-btn">
+                        <button type="button" class="btn btn-primary bg-white text-primary fs-4 ps-5 pe-5 pt-3
                     pb-3 fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Register
-                        Now</button>
+                            Now</button>
+                    </div>
                     <!-- Modal -->
                     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -401,7 +408,7 @@
 
         </section>
         <!-- Student Rating part start hare -->
-        <section class="container d-flex justify-content-between mb-5 ">
+        <section class="container d-flex justify-content-between mb-5 " id="feedback">
             <div class="border me-4 p-4 rounded">
                 <div class="d-flex justify-content-between">
                     <div>
